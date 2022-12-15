@@ -1,0 +1,53 @@
+.card {
+  background: $color-bg-light;
+  border-radius: 0.7rem;
+  padding: 2.5rem 3rem;
+  box-shadow: $color-box-shadow 0.5rem 1.5rem 2.5rem 0;
+}
+
+.card_dark {
+  background: $color-bg-dark;
+}
+
+.card_very-dark {
+  background: $color-bg-very-dark;
+}
+
+.card_light {
+  color: $color-bg-very-dark;
+}
+
+.card_quoted {
+  background: $color-bg-bright;
+  background-image: url("../assets/images/icons/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: top right 10%;
+}
+
+.card__header {
+  display: flex;
+  align-items: center;
+  p {
+    opacity: 70%;
+    @include font($size: 1.1rem, $lh: 1.3rem);
+  }
+}
+
+.card__img {
+  width: 2.6em;
+  border-radius: 50%;
+  border: 2px solid $color-border;
+  margin-right: 1.5rem;
+}
+
+.card__lead {
+  width: 101%;
+  @include font($size: 2rem, $lh: 2.4rem, $weight: 500);
+  padding: 1.5rem 0.3rem;
+}
+
+.card__quote {
+  width: 98%;
+  opacity: 70%;
+  @include font($size: 1.4rem, $lh: 1.8rem);
+} 

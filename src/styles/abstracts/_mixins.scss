@@ -1,0 +1,17 @@
+@mixin font ($size, $lh: $size, $weight: 400) {
+  font-size: $size;
+  line-height: $lh;
+  font-weight: $weight;
+}
+
+@mixin media-medium {
+  @media (min-width: $breakpoint-medium) {
+    @content;
+  }
+}
+
+@mixin media-large {
+  @media (min-width: $breakpoint-large) {
+    @content;
+  }
+}

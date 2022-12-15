@@ -1,0 +1,25 @@
+// Color theme — Bright
+// Primary
+$moderate-violet: hsl(263, 55%, 52%);
+$very-dark-grayish-blue: hsl(217, 19%, 35%);
+$very-dark-blackish-blue: hsl(217, 30%, 14%);
+$very-dark-blackish-blue-shadow: hsla(217, 30%, 14%, 0.10);
+$white: hsl(0, 0%, 100%);
+$white-opacity-50: hsla(0, 0%, 100%, 0.5);
+
+// Neutral
+$light-gray: hsl(0, 0%, 81%);
+$light-grayish-blue: hsl(210, 46%, 95%);
+
+// Project color definitions
+$color-bg-main: $light-grayish-blue;
+$color-bg-bright: $moderate-violet;
+$color-bg-dark: $very-dark-grayish-blue;
+$color-bg-very-dark: $very-dark-blackish-blue;
+$color-bg-light: $white;
+$color-box-shadow: $very-dark-blackish-blue-shadow;
+$color-border: $white-opacity-50;
+
+// Breakpoints
+$breakpoint-medium: 950px;
+$breakpoint-large: 1350px;
