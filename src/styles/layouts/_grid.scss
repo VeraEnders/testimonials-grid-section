@@ -5,6 +5,7 @@
   @extend %transition;
   @include media-medium {
     grid-template-columns: repeat(4, 1fr);
+    gap: 1.8rem;
   }
 }
 

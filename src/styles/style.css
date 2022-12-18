@@ -88,6 +88,7 @@ h5 {
 @media (min-width: 950px) {
   .grid-layout {
     grid-template-columns: repeat(4, 1fr);
+    gap: 1.8rem;
   }
 }
 
@@ -104,10 +105,12 @@ h5 {
 }
 .wrapper {
   padding: 7rem 2.5rem;
+  max-width: 111rem;
+  margin-inline: auto;
 }
 @media (min-width: 1350px) {
   .wrapper {
-    padding: 16.5rem 16.5rem 5rem;
+    padding: 16.5rem 0 5rem;
   }
 }
 
