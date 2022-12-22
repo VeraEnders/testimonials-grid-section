@@ -1,11 +1,11 @@
-<h1 align="center"> Testimonials Grid Section | <a href="https://www.frontendmentor.io">frontendmentor.io</a></h1>
+<h1 align="center"> Testimonials Grid Section</h1>
 <img src="./src/assets/screenshots/desktop-testimonials-grid-section.png">
 
 <div align="center">
   <h2><a href="https://veraenders.github.io/testimonials-grid-section/">Live</a>
   <span> | </span> 
   <a href="https://github.com/VeraEnders/testimonials-grid-section">Code</a></h2>
-  <div>This is a solution to the <a href="https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7">Testimonials grid section challenge on Frontend Mentor</a>.</div>
+  <div>This is a solution to the <a href="https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7">Testimonials grid section challenge</a> on Frontend Mentor.</div>
 </div>
 <br>
 
@@ -40,7 +40,7 @@ Users should be able to:
 ## Author
 
 - GitHub - [Vera Enders](https://github.com/VeraEnders)
-- Frontend Mentor - [@veraenders](https://www.frontendmentor.io/profile/veraenders)
+- FrontendMentor - [@veraenders](https://www.frontendmentor.io/profile/veraenders)
 
 ## Acknowledgments
 
